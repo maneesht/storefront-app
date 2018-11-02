@@ -2,3 +2,60 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 10em;
+}
+.text-center {
+    text-align: center;
+}
+.center-block {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.float-right {
+    float: right;
+}
+.white-text {
+    color: white;
+}
+.bg-primary {
+    background: #311B92;
+}
+header {
+    padding: 40px;
+    z-index: 1;
+}
+
+.header {
+    width: 100%;
+    top: 0;
+    background-color: #311B92;
+    height: 20em;
+    position: absolute;
+    z-index: 0;
+}
+
+.heading {
+    color: white;
+    z-index: 1;
+}
+
+.items {
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    margin: 1em;
+    width: 33%;
+    min-height: 100px;
+}

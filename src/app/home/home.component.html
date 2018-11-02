@@ -1,3 +1,35 @@
-<p>
-  home works!
-</p>
+<!-- <mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport="true"
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'over' : 'side'"
+      [opened]="!(isHandset$ | async)">
+    <mat-toolbar>Menu</mat-toolbar>
+    <mat-nav-list>
+      <a mat-list-item href="#">Link 1</a>
+      <a mat-list-item href="#">Link 2</a>
+      <a mat-list-item href="#">Link 3</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        *ngIf="isHandset$ | async">
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+      <span>storefront-app</span>
+    </mat-toolbar>
+  </mat-sidenav-content>
+</mat-sidenav-container> -->
+<div class="header"></div>
+<div class="container">
+    <h1 class="white-text text-center mat-display-1 heading">Storefront</h1>
+    <div class="items">
+        <mat-card class="item">Simple card</mat-card>
+        <mat-card class="item">Simple card</mat-card>
+        <mat-card class="item">Simple card</mat-card>
+    </div>
+</div>
