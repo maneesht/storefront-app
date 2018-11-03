@@ -24,6 +24,6 @@ export class HomeComponent {
   ) {}
 
   ngOnInit() {
-    this.items = this.productService.getItems()
+    this.items = this.productService.getItems();
   }
 }

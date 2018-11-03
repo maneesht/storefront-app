@@ -2,6 +2,6 @@
 <div class="container">
     <h1 class="white-text text-center mat-display-1 heading">Storefront</h1>
     <div class="items">
-        <app-item-card class="item" *ngFor="let item of items"></app-item-card>
+        <app-item-card class="item" [routerLink]="['item', item.id]" *ngFor="let item of items" [item]="item"></app-item-card>
     </div>
 </div>
